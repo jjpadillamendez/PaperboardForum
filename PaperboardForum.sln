@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaperboardForum", "PaperboardForum\PaperboardForum.csproj", "{771DC1B9-F177-4639-9363-6571105CE499}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaperboardForum", "PaperboardForum\PaperboardForum.csproj", "{771DC1B9-F177-4639-9363-6571105CE499}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4767B2F3-FEE8-4285-B30A-4BCB8E799A59} = {4767B2F3-FEE8-4285-B30A-4BCB8E799A59}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaperboardForum.Data", "PaperboardForum.Data\PaperboardForum.Data.csproj", "{4767B2F3-FEE8-4285-B30A-4BCB8E799A59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaperboardForum.Data", "PaperboardForum.Data\PaperboardForum.Data.csproj", "{4767B2F3-FEE8-4285-B30A-4BCB8E799A59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForumService", "ForumService\ForumService.csproj", "{8721FAD4-4D03-4313-AEE8-901E78A83BDA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +26,10 @@ Global
 		{4767B2F3-FEE8-4285-B30A-4BCB8E799A59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4767B2F3-FEE8-4285-B30A-4BCB8E799A59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4767B2F3-FEE8-4285-B30A-4BCB8E799A59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8721FAD4-4D03-4313-AEE8-901E78A83BDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8721FAD4-4D03-4313-AEE8-901E78A83BDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8721FAD4-4D03-4313-AEE8-901E78A83BDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8721FAD4-4D03-4313-AEE8-901E78A83BDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
