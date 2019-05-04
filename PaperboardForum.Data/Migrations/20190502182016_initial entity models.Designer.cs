@@ -10,8 +10,8 @@ using PaperboardForum.Data;
 namespace PaperboardForum.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20190501185507_Added initial entity models")]
-    partial class Addedinitialentitymodels
+    [Migration("20190502182016_initial entity models")]
+    partial class initialentitymodels
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
